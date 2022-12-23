@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    font-weight: bold;
+    padding-left: 60px;
+    padding-top: 1%;
+    font-size: 18px;
+}
+
+.logo-start {
+    color: red;
+}
+
+.logo-end {
+    color: white;
+}
+
+.navbar{
+    height: 20%;
+}
+
+.nav-item {
+    color: white;
+}
+
+.me-2 {
+    margin-left: 0.5rem;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.btn {
+    height: 80%;
+}
+
+.content {
+    background-color: black;
+    max-width: inherit;
+}
+
+.judul {
+    font-size: 5px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.judul h4 {
+    margin-bottom: 0;
+}
+
+.form-control {
+    width: 200%;
+    justify-content: center;
+}
+
+.btn-submit {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+
+.login-desc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.login-desc a {
+    color: red;
+    text-decoration: none;
+}
+
+.btn-submit {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.popular-header{
+    padding: 20px;
+    color: white;
+}
+
+.movie-list {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.movie-list img {
+    width: 70%;
+}
+
+.movie-list-item {
+    display: flex-start;
+}
+.show-header{
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-header #search {
+    width: 200px;
+    height: 80%;
+}
+
+#sort-navbar {
+    display: flex;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+#sort-navbar button{
+    width: 80px;
+    height: 25px;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: #323233;
+    border-color: #323233;
+}
+
+.narbar-container #btn-admin{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #323233;
+    color: white;
+    height: 60%;
+    margin-top: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.foot-logo p{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.foot-logo-start {
+    color: red;
+}
+
+.foot-logo-end {
+    color: white;
+}
+
+.logo2 p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.error{
+    color: red;
+}
+
+.logo2-start {
+    font-weight: bold;
+    color: red;
+}
+
+.logo2-end {
+    font-weight: bold;
+    color: white;
+}
+
+.logo-desc {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.foot-desc {
+    margin-bottom: 0.4rem;
+}
+
+.sosmed a {
+    margin-top: 0.2rem;
+    margin-right: 5px;
+    margin-bottom: 0.6rem;
+    justify-content: center;
+}
+
+.sosmed a i{
+    width: max-content;
+}
